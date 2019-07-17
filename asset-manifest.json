@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/spa-react/static/css/main.fdec7e1f.chunk.css",
+    "main.js": "/spa-react/static/js/main.e9bf37c9.chunk.js",
+    "main.js.map": "/spa-react/static/js/main.e9bf37c9.chunk.js.map",
+    "runtime~main.js": "/spa-react/static/js/runtime~main.afad200a.js",
+    "runtime~main.js.map": "/spa-react/static/js/runtime~main.afad200a.js.map",
+    "static/js/2.12f9b2ad.chunk.js": "/spa-react/static/js/2.12f9b2ad.chunk.js",
+    "static/js/2.12f9b2ad.chunk.js.map": "/spa-react/static/js/2.12f9b2ad.chunk.js.map",
+    "index.html": "/spa-react/index.html",
+    "precache-manifest.202a09e390a83ce36287a4f08e605b09.js": "/spa-react/precache-manifest.202a09e390a83ce36287a4f08e605b09.js",
+    "service-worker.js": "/spa-react/service-worker.js",
+    "static/css/main.fdec7e1f.chunk.css.map": "/spa-react/static/css/main.fdec7e1f.chunk.css.map",
+    "static/media/foto1.png": "/spa-react/static/media/foto1.517b7648.png",
+    "static/media/header.scss": "/spa-react/static/media/header.4f6e7df5.jpg"
+  }
+}
