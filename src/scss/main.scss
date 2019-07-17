@@ -1,0 +1,15 @@
+@import "colors";
+
+.container {
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.container__background__gray {
+  background-color: $gray-very-light;
+}
+
+.container__background__blue {
+  background-color: $blue-dark;
+  margin-top: 150px;
+}

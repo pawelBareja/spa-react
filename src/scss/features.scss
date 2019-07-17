@@ -1,0 +1,15 @@
+@import "colors";
+
+.feature {
+  text-align: center;
+
+  h3 {
+    color: $blue-dark;
+    text-align: center;
+  }
+
+  p {
+    color: $black;
+    text-align: center;
+  }
+}

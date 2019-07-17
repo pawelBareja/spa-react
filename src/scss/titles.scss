@@ -1,0 +1,15 @@
+@import "colors";
+
+.title {
+  text-align: center;
+  padding: 50px;
+  color: $blue-dark;
+
+  h2 {
+    font-weight: 700;
+  }
+
+  p {
+    font-weight: 600;
+  }
+}
