@@ -1,0 +1,15 @@
+@import "colors";
+
+.subscription {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .subscription__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subscription__email {
+  }
+}

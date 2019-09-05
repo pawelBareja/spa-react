@@ -1,0 +1,17 @@
+@import "colors";
+
+.navbar-light .navbar-nav .nav-link {
+  color: $blue_dark;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link:last-child {
+  background: $orange-dark;
+  border: 1px solid $orange-dark;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 15px;
+  font-weight: 700;
+}

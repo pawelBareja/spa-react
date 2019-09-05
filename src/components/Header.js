@@ -9,13 +9,12 @@ class Header extends Component {
       <>
         <Jumbotron>
           <div className="container">
-            <h1>Hello, world!</h1>
+            <h1>Performance PR</h1>
             <p>
-              This is a simple hero unit, a simple jumbotron-style component for
-              calling extra attention to featured content or information.
+              to jedyna usługa, której potrzebujesz <br /> by zrealizować cele Twojej kampanii!
             </p>
             <p>
-              <Button variant="primary">Learn more</Button>
+              <Button variant="light hover-shadow ">Rozpocznij</Button>
             </p>
           </div>
           <div className="scroll_down">
@@ -23,22 +22,35 @@ class Header extends Component {
           </div>
         </Jumbotron>
         <div className="row background_blue">
-          <div class="col-lg-12 text-justify">
+          <div className="col-lg-12 text-center">
             <div className="container text_white">
-              <p>
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups.
+              <h2>
+                Poznaj Nas
+              </h2>
+              <div className="section">
+                <p>
+                  Performance PR to owoc współpracy dwóch doświadczonych zespołów:
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p>
+                  <strong>Neuron Agencji PR oraz Performance Labs</strong>
+                </p>
+              </div>
+              <div className="section">
+                <p>
+                  Połączyliśmy wieloletnie <strong>doświadczenie</strong> w tworzeniu skutecznych
               </p>
+                <p>
+                  kampanii wizerunkowych z kompetencjami z zakresu performance marketingu
+              </p>
+              </div>
+              <div className="section">
+                <p>
+                  Stworzyliśmy nowe, unikalne połączenie: <strong>precyzyjnie</strong> skalkulowane kampanie,
+              </p>
+                <p>
+                  w których gwarantujemy osiągnięcie precyzyjnie określonych celów
+              </p>
+              </div>
             </div>
           </div>
         </div>

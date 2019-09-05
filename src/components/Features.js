@@ -5,18 +5,18 @@ import ikona2 from "../img/ikona2.png";
 const featureItems = [
   {
     image: ikona1,
-    title: "efekt",
-    text: "fasdff asdf sdf sdf sdf"
+    title: "Końcowy efekt",
+    text: "Interesuje Cię końcowy efekt w postaci zrealizowanych celów marketingowych"
   },
   {
     image: ikona2,
-    title: "wszystko",
-    text: "fasdff asdf sdf s dsv rgebdbdf f sdf"
+    title: "Wszystko w jednym",
+    text: "Nie chcesz marnować zasobów na zarządzanie trzema różnymi agencjami: od PRu, od social mediów i od reklamy online"
   },
   {
     image: ikona1,
-    title: "wyniki",
-    text: "fasdff asdf seeeewfevv  vevwevvredf sdf sdf"
+    title: "Maksymalne wyniki",
+    text: "Chcesz maksymalnie efektywnie wykorzystać budżet, którym dysponujesz"
   }
 ];
 
@@ -33,7 +33,7 @@ const Features = () => {
         <div className="row">
           {featureItems.map(item => (
             <div
-              id={item.title}
+              key={item.text}
               className="col-lg-4 col-md-4 col-xs-12 feature"
             >
               <img src={item.image} alt="obrazek" />

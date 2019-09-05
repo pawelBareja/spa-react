@@ -1,0 +1,35 @@
+@import "colors";
+
+.form {
+  input {
+    margin: 10px;
+    background-color: $blue-dark;
+    border: 1px solid $blue-dark;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+
+    &::placeholder {
+      color: #fff;
+    }
+
+    &:focus {
+      background-color: $blue-light;
+      color: #fff;
+    }
+  }
+
+  button {
+    margin: 10px;
+    border-radius: 20px;
+    width: 200px;
+    color: $blue-dark;
+    font-weight: 600;
+  }
+
+  .error {
+    margin: 0 10px;
+    color: $orange-dark;
+    padding: 0 10px;
+  }
+}

@@ -6,45 +6,37 @@ export default () => (
     <div className="container container__background__gray">
       <div className="row">
         <div className="col-lg-12 col-md-12 col-xs-12 title">
-          <h2>DLa kogo?</h2>
+          <h2>Dla kogo?</h2>
         </div>
       </div>
       <div className="row">
         <div className="col-lg-12 col-md-12 col-xs-12">
           <Tabs>
             <TabList>
-              <Tab>Title 1</Tab>
-              <Tab>Title 2</Tab>
-              <Tab>Title 3</Tab>
-              <Tab>Title 4</Tab>
+              <Tab>Sektor 1</Tab>
+              <Tab>Sektor 2</Tab>
+              <Tab>Sektor 3</Tab>
+              <Tab>Sektor 4</Tab>
             </TabList>
 
             <TabPanel>
               <p>
-                <strong>Dla organizacji z III sektora, </strong>które realizują
-                projekty z grantów UE i oczekują gwarancji osiągnięcia
-                określonych rezultatów.
+                <strong>Dla organizacji z III sektora,  </strong>które realizują projekty z grantów UE i oczekują gwarancji osiągnięcia określonych rezultatów
               </p>
             </TabPanel>
             <TabPanel>
               <p>
-                <strong>COŚT TA M2 2Dla organizacji z III sektora, </strong>
-                które realizują projekty z grantów UE i oczekują gwarancji
-                osiągnięcia określonych rezultatów.
+                <strong>Dla ministerstw i agend rządowych </strong>które oczekują realnych, udokumentowanych rezultatów kampanii informacyjnych
               </p>
             </TabPanel>
             <TabPanel>
               <p>
-                <strong>COŚT TA 4 2Dla organizacji z III sektora, </strong>które
-                realizują projekty z grantów UE i oczekują gwarancji osiągnięcia
-                określonych rezultatów.
+                <strong>Dla organizacji branżowych, </strong>którym zależy na dotarciu do decydentów i liderów opinii
               </p>
             </TabPanel>
             <TabPanel>
               <p>
-                <strong>COŚT TA 4 2Dla organizacji z III sektora, </strong>które
-                realizują projekty z grantów UE i oczekują gwarancji osiągnięcia
-                określonych rezultatów.
+                <strong>la organizacji, które  </strong>mają precyzyjnie określone cele komunikacyjne do zrealizowania
               </p>
             </TabPanel>
           </Tabs>

@@ -44,6 +44,20 @@
   &:nth-child(12) {
     background-color: $orange-dark;
   }
+
+  .grid__item__inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+  }
 }
 
 .grid__text {

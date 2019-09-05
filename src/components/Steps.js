@@ -22,9 +22,13 @@ const Steps = () => {
             <div className="step__text__title">Zasoby</div>
             <div className="step__text__content">
               <p>
-                Ty wysyłasz do nas 3 podstawoe infownce Ty wysyłasz do nas 3
-                podstawoe infownce Ty wysyłasz do nas 3 podstawoe infownce
-              </p>
+                <strong>Ty wysyłasz</strong> do nas trzy podstawowe informacje:</p>
+              <ul>
+                <li>JAKI JEST TWÓJ CEL</li>
+                <li>ADRESACI</li>
+                <li>BUDŻET</li>
+                <li>MATERIAŁY KAMPANIJNE, którymi dysponujesz</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -32,11 +36,9 @@ const Steps = () => {
         <div className="row step">
           <div className="col-lg-6 col-md-6 col-xs-12 step__text">
             <div className="step__text__icon">2</div>
-            <div className="step__text__title">Zasoby</div>
+            <div className="step__text__title">Efekty</div>
             <div className="step__text__content">
-              <p>
-                Ty wysyłasz do nas 3 podstawoe infownce Ty wysyłasz do nas 3
-                podstawoe infownce Ty wysyłasz do nas 3 podstawoe infownce
+              <p>Odsyłamy proponowane mierniki i efekty, które zobowiązujemy się dostarczyć w tym budżecie (M.IN. zasięgi publikacji medialnych, liczby wejść na strony, liczby pobrań materiałów etc).
               </p>
             </div>
           </div>
@@ -51,11 +53,10 @@ const Steps = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-xs-12 step__text">
             <div className="step__text__icon">3</div>
-            <div className="step__text__title">Zasoby</div>
+            <div className="step__text__title">Planowanie</div>
             <div className="step__text__content">
               <p>
-                Ty wysyłasz do nas 3 podstawoe infownce Ty wysyłasz do nas 3
-                podstawoe infownce Ty wysyłasz do nas 3 podstawoe infownce
+                Jeżeli akceptujesz propozycję, podpisujemy umowę i organizujemy warsztat strategiczny, po którym otrzymujesz szczegółowy plan działań
               </p>
             </div>
           </div>
@@ -64,11 +65,10 @@ const Steps = () => {
         <div className="row step">
           <div className="col-lg-6 col-md-6 col-xs-12 step__text">
             <div className="step__text__icon">4</div>
-            <div className="step__text__title">Zasoby</div>
+            <div className="step__text__title">Raport</div>
             <div className="step__text__content">
               <p>
-                Ty wysyłasz do nas 3 podstawoe infownce Ty wysyłasz do nas 3
-                podstawoe infownce Ty wysyłasz do nas 3 podstawoe infownce
+                Dostarczamy szczegółowy raport z efektów działań, obejmujący wszystkie KPI
               </p>
             </div>
           </div>

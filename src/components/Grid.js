@@ -1,53 +1,53 @@
 import React from "react";
-import ikona1 from "../glosnik.png";
+import icon1 from "../img/glosnik.png";
 
 const items = [
   {
-    icon: "aaaaa",
+    icon: icon1,
     text: "Content Marketing"
   },
   {
-    icon: "aaacaa",
+    icon: icon1,
     text: "Media relations"
   },
   {
-    icon: "acccc",
+    icon: icon1,
     text: "Komunikacja w social media"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Boty"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Geotargetowanie"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Remarketing"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Reklama online w display"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Reklama online w social media"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Reklama w prasie"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Spoty w serwisach VOD"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Youtube"
   },
   {
-    icon: "adddd",
+    icon: icon1,
     text: "Marketing automation"
   }
 ];
@@ -70,23 +70,17 @@ const Grid = () => {
           {items.map(item => (
             <div
               className="col-lg-4 col-md-4 col-xs-6 grid__item"
-              key={item.icon}
+              key={item.text}
             >
-              {item.text}
+              <div className="grid__item__inside">
+                <img src={item.icon} alt="ikona" />
+                <h3>{item.text}</h3>
+              </div>
             </div>
           ))}
         </div>
 
-        <div className="row ">
-          <div className="col-lg-12 col-md-12 col-xs-12 grid__text">
-            <p>
-              Zespół, który zajmuje się kampaniami Peformance PR na co dzień
-              pracuje dla największych polskich i międzynarodowych firm, m.in.
-              Arval BNP Paribas, ZyXEL Communications, PKO Bank Polski, PGNiG
-              S.A, Netia SA i wielu innych.
-            </p>
-          </div>
-        </div>
+
       </div>
     </>
   );
