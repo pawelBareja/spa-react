@@ -464,7 +464,7 @@ h2 {
   color: #0269b5;
   font-weight: 600;
   line-height: 1.2;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .navbar-light .navbar-nav .nav-link:last-child {
@@ -472,7 +472,7 @@ h2 {
   border: 1px solid #ff7e00;
   border-radius: 20px;
   color: #fff;
-  padding: 5px 15px;
+  padding: 5px 10px;
   font-weight: 700;
 }
 
