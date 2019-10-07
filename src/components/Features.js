@@ -1,6 +1,7 @@
 import React from "react";
 import ikona1 from "../img/ikona1.png";
 import ikona2 from "../img/ikona2.png";
+import ikona3 from "../img/ikona2.png";
 
 const featureItems = [
   {
@@ -14,7 +15,7 @@ const featureItems = [
     text: "Nie chcesz marnować zasobów na zarządzanie trzema różnymi agencjami: od PRu, od social mediów i od reklamy online"
   },
   {
-    image: ikona1,
+    image: ikona3,
     title: "Maksymalne wyniki",
     text: "Chcesz maksymalnie efektywnie wykorzystać budżet, którym dysponujesz"
   }
@@ -23,7 +24,7 @@ const featureItems = [
 const Features = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="features">
         <div className="row ">
           <div className="col-lg-12 col-md-12 col-xs-12 title">
             <h2>Dlaczego Performance PR?</h2>
@@ -36,7 +37,7 @@ const Features = () => {
               key={item.text}
               className="col-lg-4 col-md-4 col-xs-12 feature"
             >
-              <img src={item.image} alt="obrazek" />
+              <img className="icon" src={item.image} alt="obrazek" />
               <h3>{item.title}</h3>
               <p>{item.text}</p>
             </div>

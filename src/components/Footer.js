@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../img/logo.png";
-import { IoLogoFacebook, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io";
+import fb from "../img/fb.png";
+import linkedin from "../img/linkedin.png";
+import twitter from "../img/twitter.png";
 
 const Footer = () => {
   return (
@@ -124,19 +126,19 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="#">
-                  <IoLogoFacebook />
+                  <img src={fb} alt="facebook" />
 
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <IoLogoLinkedin />
+                  <img src={linkedin} alt="linkedin" />
 
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <IoLogoTwitter />
+                  <img src={twitter} alt="twitter" />
 
                 </a>
               </li>

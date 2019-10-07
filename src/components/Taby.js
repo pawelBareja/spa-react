@@ -36,7 +36,7 @@ export default () => (
             </TabPanel>
             <TabPanel>
               <p>
-                <strong>la organizacji, które  </strong>mają precyzyjnie określone cele komunikacyjne do zrealizowania
+                <strong>Dla organizacji, które  </strong>mają precyzyjnie określone cele komunikacyjne do zrealizowania
               </p>
             </TabPanel>
           </Tabs>

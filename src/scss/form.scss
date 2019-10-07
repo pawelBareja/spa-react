@@ -19,6 +19,10 @@
     }
   }
 
+  input[type="file"] {
+    border: none;
+  }
+
   button {
     margin: 10px;
     border-radius: 20px;
@@ -32,4 +36,25 @@
     color: $orange-dark;
     padding: 0 10px;
   }
+
+  label a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+
+.form-check {
+  display: inline-block;
+}
+
+.form-check-label {
+  // border: 1px solid red;
+  padding-left: 20px;
+  line-height: 26px;
+}
+
+.form-check-input {
+  margin-left: 0 !important;
 }

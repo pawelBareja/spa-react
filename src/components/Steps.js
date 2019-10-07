@@ -1,5 +1,12 @@
 import React from "react";
-import foto1 from "../img/foto1.png";
+import step1 from "../img/step1.png";
+import step2 from "../img/step2.png";
+import step3 from "../img/step3.png";
+import step4 from "../img/step4.png";
+import step5 from "../img/step5.png";
+
+
+
 
 const Steps = () => {
   return (
@@ -15,7 +22,7 @@ const Steps = () => {
 
         <div className="row step">
           <div className="col-lg-6 col-md-6 col-xs-12 step__image">
-            <img src={foto1} alt="" />
+            <img src={step1} alt="" />
           </div>
           <div className="col-lg-6 col-md-6 col-xs-12 step__text">
             <div className="step__text__icon">1</div>
@@ -24,10 +31,10 @@ const Steps = () => {
               <p>
                 <strong>Ty wysyłasz</strong> do nas trzy podstawowe informacje:</p>
               <ul>
-                <li>JAKI JEST TWÓJ CEL</li>
-                <li>ADRESACI</li>
-                <li>BUDŻET</li>
-                <li>MATERIAŁY KAMPANIJNE, którymi dysponujesz</li>
+                <li>jaki jest twój cel</li>
+                <li>adresaci</li>
+                <li>budżet</li>
+                <li>materiały kampanijne, którymi dysponujesz</li>
               </ul>
             </div>
           </div>
@@ -43,13 +50,13 @@ const Steps = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 order-first order-md-last order-lg-last step__image">
-            <img src={foto1} alt="" />
+            <img src={step2} alt="" />
           </div>
         </div>
 
         <div className="row step">
           <div className="col-lg-6 col-md-6 col-xs-12 step__image">
-            <img src={foto1} alt="" />
+            <img src={step3} alt="" />
           </div>
           <div className="col-lg-6 col-md-6 col-xs-12 step__text">
             <div className="step__text__icon">3</div>
@@ -65,6 +72,25 @@ const Steps = () => {
         <div className="row step">
           <div className="col-lg-6 col-md-6 col-xs-12 step__text">
             <div className="step__text__icon">4</div>
+            <div className="step__text__title">Realizacja</div>
+            <div className="step__text__content">
+              <p>
+                <strong>Realizujemy</strong> kampanię, której efekty można śledzić na bieżąco
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 order-first order-md-last order-lg-last step__image">
+            <img src={step4} alt="" />
+          </div>
+        </div>
+
+
+        <div className="row step">
+          <div className="col-lg-6 col-md-6 col-xs-12 step__image">
+            <img src={step5} alt="" />
+          </div>
+          <div className="col-lg-6 col-md-6 col-xs-12 step__text">
+            <div className="step__text__icon">5</div>
             <div className="step__text__title">Raport</div>
             <div className="step__text__content">
               <p>
@@ -72,10 +98,10 @@ const Steps = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 order-first order-md-last order-lg-last step__image">
-            <img src={foto1} alt="" />
-          </div>
         </div>
+
+
+
       </div>
     </>
   );

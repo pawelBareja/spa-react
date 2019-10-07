@@ -2,28 +2,29 @@ import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import { IoIosArrowDown } from "react-icons/io";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Header extends Component {
   render() {
     return (
       <>
         <Jumbotron>
-          <div className="container">
+          <div className="header_container">
             <h1>Performance PR</h1>
             <p>
               to jedyna usługa, której potrzebujesz <br /> by zrealizować cele Twojej kampanii!
             </p>
             <p>
-              <Button variant="light hover-shadow ">Rozpocznij</Button>
+              <Button variant="light hover-shadow "><AnchorLink href='#features'>Rozpocznij</AnchorLink></Button>
             </p>
           </div>
           <div className="scroll_down">
-            <IoIosArrowDown />
+            <AnchorLink offset={() => 100} href='#onas'><IoIosArrowDown /></AnchorLink>
           </div>
         </Jumbotron>
         <div className="row background_blue">
           <div className="col-lg-12 text-center">
-            <div className="container text_white">
+            <div className="container text_white" id="onas">
               <h2>
                 Poznaj Nas
               </h2>

@@ -1,10 +1,16 @@
 @import "colors";
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    justify-content: space-evenly !important;
+  }
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: $blue_dark;
   font-weight: 600;
   line-height: 1.2;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .navbar-light .navbar-nav .nav-link:last-child {

@@ -99,6 +99,32 @@ class ContactForm extends Component {
                       <div className="error">{this.state.error_message}</div>
                     </div>
                   </div>
+
+
+
+                  <div className="row">
+                    <div className="col-lg-12 col-xs-12">
+                      <Form.Control
+                        placeholder=""
+                        name="file"
+                        type="file"
+                      />
+
+                    </div>
+                  </div>
+
+
+                  <div className="row">
+                    <div className="col-lg-12 col-xs-12">
+                      <Form.Check
+                        required
+                        name="terms"
+                      />
+                      <label>Akceptuję <a href="#">Politykę Prywatności</a></label>
+                    </div>
+                  </div>
+
+
                   <div className="row">
                     <div className="col-lg-12 col-xs-12 text-center">
                       <Button variant="light" type="submit">

@@ -16,6 +16,7 @@ import React, { Component } from "react";
 import Navigation from "./Navigation.js";
 import Home from "../pages/Home.js";
 
+
 class App extends Component {
   render() {
     return (

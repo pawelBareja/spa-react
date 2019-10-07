@@ -5,6 +5,11 @@
   padding: 50px;
   color: $blue-dark;
 
+  @media (max-width: 768px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   h2 {
     font-weight: 700;
   }

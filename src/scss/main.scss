@@ -1,5 +1,9 @@
 @import "colors";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext");
 
+body {
+  font-family: "Poppins", sans-serif;
+}
 .container {
   // margin-bottom: 100px;
   position: relative;
@@ -7,16 +11,6 @@
 
 .container__background__gray {
   background-color: $gray-very-light;
-}
-
-.container__background__blue {
-  background-color: $blue-dark;
-  margin-top: 150px;
-  color: #fff;
-
-  .title {
-    color: #fff;
-  }
 }
 
 .background--blue {
@@ -61,4 +55,19 @@
 
 .text_black {
   color: $black;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
 }

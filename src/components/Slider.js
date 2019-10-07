@@ -13,7 +13,8 @@ class Slider extends Component {
               <p className="text_black">Zespół, który zajmuje się kampaniami Peformance PR na co dzień pracuje dla największych polskich i międzynarodowych firm, m.in. Arval BNP Paribas, ZyXEL Communications, PKO Bank Polski, PGNiG S.A, Netia SA i wielu innych</p>
             </div>
           </div>
-          <InfiniteCarousel
+          {/*           
+         <InfiniteCarousel
             breakpoints={[
               {
                 breakpoint: 500,
@@ -73,7 +74,8 @@ class Slider extends Component {
             <div>
               <img className="carousel__img" alt="" src={logo1} />
             </div>
-          </InfiniteCarousel>
+          </InfiniteCarousel>  */}
+
         </div>
       </>
     );

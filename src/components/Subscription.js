@@ -40,7 +40,7 @@ class Subscription extends Component {
                 <Form>
 
                   <div className="row padding-y_30">
-                    <div className="col-lg-6 col-md-6 col-xs-12 text-center">
+                    <div className="col-lg-6 col-md-12 col-xs-12 text-center">
                       <div className="subscription__email">
                         <Form.Control
                           placeholder="Twój adres e-mail.."
@@ -53,9 +53,9 @@ class Subscription extends Component {
                       </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6 col-xs-12">
-                      <div className="ubscription__submit">
-                        <Button variant="light" type="submit">
+                    <div className="col-lg-6 col-md-12 col-xs-12">
+                      <div className="subscription__submit">
+                        <Button className="btn-orange" variant="light" type="submit">
                           Wyślij
                       </Button>
                       </div>

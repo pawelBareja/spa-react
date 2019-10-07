@@ -5,17 +5,17 @@ import post1 from "../img/post1.jpg";
 const posts = [
   {
     image: post1,
-    text: "„Supersprawni” – teatr pacjentów w krakowskim szpitalu dziecięcym",
+    text: "„Tytuł pierwszego posta",
     link: "post1"
   },
   {
     image: post1,
-    text: "„Supersprawni” – teatr pacjentów w krakim szpitalu dziecięcym",
+    text: "„Tytuł drugiego posta",
     link: "post2"
   },
   {
     image: post1,
-    text: "„Supersprawni” – teatr pacjew w krakowskim szpitalu dziecięcym",
+    text: "„Tytuł trzeceigo posta",
     link: "post3"
   }
 ];

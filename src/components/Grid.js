@@ -1,60 +1,84 @@
 import React from "react";
-import icon1 from "../img/glosnik.png";
+import Tilt from 'react-tilt';
+import badge1 from "../img/badge1.png";
+import badge2 from "../img/badge2.png";
+import badge3 from "../img/badge3.png";
+import badge4 from "../img/badge4.png";
+import badge5 from "../img/badge5.png";
+import badge6 from "../img/badge6.png";
+import badge7 from "../img/badge7.png";
+import badge8 from "../img/badge8.png";
+import badge9 from "../img/badge9.png";
+import badge10 from "../img/badge10.png";
+import badge11 from "../img/badge11.png";
+import badge12 from "../img/badge12.png";
 
 const items = [
   {
-    icon: icon1,
-    text: "Content Marketing"
+    icon: badge1,
+    text: "Content Marketing",
+    color: "#0269b5",
   },
   {
-    icon: icon1,
-    text: "Media relations"
+    icon: badge2,
+    text: "Media relations",
+    color: "#e94e1b",
   },
   {
-    icon: icon1,
-    text: "Komunikacja w social media"
+    icon: badge3,
+    text: "Komunikacja w social media",
+    color: "#251f5d",
   },
   {
-    icon: icon1,
-    text: "Boty"
+    icon: badge4,
+    text: "Boty",
+    color: "#599fd2",
   },
   {
-    icon: icon1,
-    text: "Geotargetowanie"
+    icon: badge5,
+    text: "Geotargetowanie",
+    color: "#0269b5",
   },
   {
-    icon: icon1,
-    text: "Remarketing"
+    icon: badge6,
+    text: "Remarketing",
+    color: "#ff7e00",
   },
   {
-    icon: icon1,
-    text: "Reklama online w display"
+    icon: badge7,
+    text: "Reklama online w display",
+    color: "#e94e1b",
   },
   {
-    icon: icon1,
-    text: "Reklama online w social media"
+    icon: badge8,
+    text: "Reklama online w social media",
+    color: "#251f5d",
   },
   {
-    icon: icon1,
-    text: "Reklama w prasie"
+    icon: badge9,
+    text: "Reklama w prasie",
+    color: "#599fd2",
   },
   {
-    icon: icon1,
-    text: "Spoty w serwisach VOD"
+    icon: badge10,
+    text: "Spoty w serwisach VOD",
+    color: "#ff7e00",
   },
   {
-    icon: icon1,
-    text: "Youtube"
+    icon: badge11,
+    text: "Youtube",
+    color: "#0269b5",
   },
   {
-    icon: icon1,
-    text: "Marketing automation"
+    icon: badge12,
+    text: "Marketing automation",
+    color: "#e94e1b",
   }
 ];
 
-const divStyle = {
-  backgroundColor: "blue"
-};
+// const divStyle = {
+//   backgroundColor: item.color
+// };
 
 const Grid = () => {
   return (
@@ -68,15 +92,20 @@ const Grid = () => {
 
         <div className="row grid ">
           {items.map(item => (
-            <div
-              className="col-lg-4 col-md-4 col-xs-6 grid__item"
-              key={item.text}
-            >
-              <div className="grid__item__inside">
-                <img src={item.icon} alt="ikona" />
-                <h3>{item.text}</h3>
+            <Tilt className="Tilt" options={{ reverse: false, max: 50, scale: 1, perspective: 500 }}  >
+              <div style={{ backgroundColor: item.color }}
+                className="grid__item"
+                key={item.text}
+              >
+                <div className="grid__item__inside">
+                  <img src={item.icon} alt="ikona" />
+                  <div className="Tilt-inner">
+                    <h3>{item.text}</h3>
+                  </div>
+
+                </div>
               </div>
-            </div>
+            </Tilt>
           ))}
         </div>
 
